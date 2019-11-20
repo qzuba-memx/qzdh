@@ -1,1 +1,2 @@
 t11=db.i("MIDS", "RawFields")
+symbols = t11.where("MsgType=100").view("Symbol", "SymbolLocate")
